@@ -3,6 +3,8 @@
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
+custom_head: '<script src="https://kit.fontawesome.com/d25870d5ef.js" crossorigin="anonymous"></script>'
+
 # Appearance
 
 appearance:
