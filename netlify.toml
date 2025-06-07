@@ -1,11 +1,10 @@
 [build]
-  command = "hugo --gc --minify -b 'https://ale-lazic.netlify.app/' && npx pagefind --source public"
+  command = "hugo --gc --minify -b $URL && npx pagefind --source 'public'"
   publish = "public"
 
 [build.environment]
   HUGO_VERSION = "0.136.5"
   HUGO_ENABLEGITINFO = "true"
-  PYTHON_VERSION = "3.11.4"
 
 [context.production.environment]
   HUGO_ENV = "production"
